@@ -1,1 +1,1 @@
-# UST-TRAINING
+Repository containing implementations of various concepts developed during my training program at UST. This repository reflects my learning progress through practical assignments, problem-solving tasks, and workflow-based implementations.
