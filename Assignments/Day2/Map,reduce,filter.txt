@@ -1,0 +1,9 @@
+map():
+  Used to transform each element of an iterable into a new form by applying a function to every element.
+  Used when you want to change every item in a list.
+filter():
+  Used to select only those elements from an iterable that satisfy a given condition.
+  Used when you want to pick only some items from a list based on a condition.
+reduce():
+  Used to combine all elements of an iterable into a single cululative result using a binary operation.
+  Used when you want to combine all items into one single value.

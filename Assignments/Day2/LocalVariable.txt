@@ -1,0 +1,6 @@
+ Local Variables cannot be accessed outside a class in python because of the language score rule,
+a local Variable is created inside a method and its visibility is limited only to that method,
+meaning it exists only during the execution of that method and goes out of scope once the method finishes.
+ This design supports encapsulation by hiding internal implementation details, improves memory management
+ by releasing temporary Variables after use, and enhance program safety and clarity by preventing external
+ code from accidentally accessing or modifying interanl,method-specific data.
