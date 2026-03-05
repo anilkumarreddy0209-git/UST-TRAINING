@@ -1,0 +1,82 @@
+MongoDB:
+QUESTIONS:
+
+1.what is the function is used to filter the documents based on the no. of elements in an aray.
+2.What is the purpose of the $expr operator?
+
+3. How does the $unwind stage work?
+A) It combines multiple documents into a single array.
+
+B) It removes duplicate documents from the results.
+
+C) It deconstructs an array field from the input documents to output a document for each element.
+
+D) It encrypts the data within a specific field for security.
+
+
+
+4 What does BSON stand for?
+A) Binary Safe Object Notation
+B) Binary JavaScript Object Notation
+C) Binary Storage Object Notation
+D) Binary Structured Object Notation
+
+ 5.Which method is used to get a document count in MongoDB?
+A) db.collection.count()
+B) db.collection.countDocuments()
+C) db.collection.size()
+D) db.collection.total()
+
+6 What is a replica set in MongoDB?
+A) A backup database
+B) A group of MongoDB servers that are connected in a cluster
+C) A group of MongoDB servers that maintain the same data set
+D) A method for caching data
+
+7 Which of the following statements is true about MongoDB?
+A) MongoDB supports ACID transactions.
+B) MongoDB does not support indexing.
+C) MongoDB is not scalable.
+D) MongoDB does not allow data replication.
+
+
+8 Which of the following queries will return the documents but with only the first two elements in the tags array? 
+A) db.posts.find({author: "Tom"}, {tags: {$slice: 2}})
+B) db.posts.find({author: "Tom"}).limit({tags: 2})
+C) db.posts.find({author: "Tom"}).limit($slice:{tags:2})
+D) Both A and C are valid. 
+
+
+9.In the Aggregation Pipeline, what is the main difference between $project and $addFields?
+
+A.$project is faster because it happens earlier in the pipeline.
+B.$addFields can perform math, but $project cannot.
+C.$addFields is only used for arrays, while $project is for strings.
+D.$project removes all existing fields except those specified; $addFields keeps all existing fields.
+
+10.Which operator would you use to find documents where an array has exactly 5 elements?
+A.$size
+B.$exists
+C.$count
+D.$length
+
+
+
+
+ANSWERS:
+1.size
+2.Comparing two different fields in the same document
+3.C
+4.B
+5.B
+6.C
+7.A
+8.A
+9.D
+10.A
+
+
+
+
+
+
