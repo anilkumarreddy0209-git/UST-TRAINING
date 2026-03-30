@@ -1,0 +1,128 @@
+Azure:
+Virtualization:
+High upfront cost
+Monthly expense even if not using
+Difficult to scaling
+Maintenance
+
+What is cloud computing?
+Cloud computing means internet based computing
+Renting IT resources
+so, in simple terms, cloud computing is on demand resources delivered to you over the internet
+
+cloud provides, Microsoft, AWS, Google
+Example- Gmail, Netflix, Dropbox
+Same resources shared by multiple
+
+Why we need cloud?
+High availability, Fault tolerance and disaster recovery
+Common Goal:HA,FT,DR
+common reasons for loss of availability
+Network outage
+Application failure
+System outage
+power outage
+catastrophic disaster(Earthquake, tsunamis, flood tomato, etc)
+
+High Availability and fault tolerance:
+protect against data centers, senser network and storage subsystem failures to keep your business running without downtime
+Highly available systems are reliable in the sense that they continue operating even when critical components fail.
+They are also resilient, meaning that they can simply handle failure without service disruption or data loss, and seamlessly recover from such failure
+Azure provide high availability features such as redundancy.
+
+Elasticity:
+Scalable architectures provide the ability to grow your environment when this is the needed
+Agility:
+Rapidly delay and configure cloud resources as your apps needs change.
+Speed and flexibility of scaling in the cloud.
+
+Socially Global:
+Launching a new professional social network
+At launch, the focus will be on the United States
+If the launch is a success, the company intends to expand globally.
+
+Computing Models:
+Saas(Software as a service) : Ready made service
+Paas(Platform as a service) : Build(Done by ourselves)
+Iaas(Infrastructure as a Service):
+
+Cloud Pricing Models:
+Always Free:
+virtual Network
+Azure Policy
+Azure Active Directory
+Azure Migrate
+Azure open source
+
+Pay nd use:
+vm,app servives, sql database,load Balancer
+charge based on time you use a particular service
+
+pay execution:
+serverless offering
+charges only when you use, per execution
+
+Azure Service
+1.compute services
+Azure VM
+Azure app service
+Azure container instances
+Azure Kubernetes, service
+Azure Functions
+Azure Virtual Desktop
+
+Azure VM:
+ Type of image:Os and software
+ Size of VM: CPU/RAM/Storage
+ Availability Options
+Use cases:
+During testing and development
+Application might need to handle flucations in demand
+shutting down vms when you dont need them
+During disaster recovery
+Move to the cloud with vms
+
+Load Balancer:
+ Distribute traffic to your backend VM
+ Provides high availability for your application
+ Two type of load balancer: Public and private
+Components:
+Frontend iP define ip address for the load balancer
+backend pool: This contains the vm
+health probes: Monitor health of resources in backend pool
+Rules: How to distribute the incoming traffic
+
+Azure Storage:
+What is Azure storage?
+Azure Storage is a cloud storage service provided by Microsoft Azure to store different types of data such as:
+Files, Images, Videos, Database, Logs
+In simple terms:
+Azure storage is a place in the cloud where you can store and access data anytime from anywhere.
+Key Concept: Storage as a service
+Azure Storage is part of cloud infrastructure and supports:
+ Structured data(tables)
+Unstructured data*images,videos)
+semi strucutured
+
+file storage
+table storage
+queue storage
+
+
+Azure sql databse
+Azure sql databse follows platform as a service(Paas)
+core components:
+1.Database
+2.Logical Server
+3.compute+Storage
+
+
+AZURE SYNAPSIS:
+Azure Synapse Analytics is a unified analytics service that Combines
+Key Components:
+SQL Pool        Data Warehouse
+Spark Pool      Big data processing
+Pipeline        Data integration(ADF inside Synapse)
+Studio          UI for development
+
+
